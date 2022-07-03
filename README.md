@@ -30,7 +30,7 @@ This bot is also capable to:
   $ cp .env.example .env
 ```
 
-2. Edit the `.env` file according to your preferences (see [Environment variables](#-environment-variables) for more
+2. Edit the `.env` file according to your preferences (see [Environment variables](#gear-environment-variables) for more
    info).
 
 4. You're now ready to start the bot:
