@@ -1,0 +1,48 @@
+{
+  "name": "sys-001/tg-premiumkickbot",
+  "description": "A silly joke bot used to decline all join requests from Telegram Premium users, while accepting the others.",
+  "license": "AGPL-3.0-or-later",
+  "type": "project",
+  "keywords": [
+    "bot",
+    "telegram",
+    "premium",
+    "join",
+    "approve",
+    "management"
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo_sqlite": "*",
+    "ext-sqlite3": "*",
+    "doctrine/orm": "^2.12",
+    "nutgram/nutgram": "^3.4",
+    "vlucas/phpdotenv": "^5.4",
+    "symfony/cache": "^6.1",
+    "doctrine/annotations": "^1.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "phpstan/phpstan": "^1.2",
+    "vimeo/psalm": "^4.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "PremiumKickBot\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "authors": [
+    {
+      "name": "sys-001",
+      "email": "sys@sys001.ml",
+      "homepage": "https://sys001.ml",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/sys-001/PremiumKickBot/issues"
+  }
+}
