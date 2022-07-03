@@ -34,7 +34,7 @@ _Q:_ Why did you make this bot?
 _A:_ Actually, just for fun\. But if you find it useful, feel free to use it\!
 
 _Q:_ I\'d like to contribute, what can I do?
-_A:_ You can always open a pull request \(source code is [here](https://github.com/sys-001/PremiumKickBot)\), or you can just /donate\!
+_A:_ You can always open a pull request \(source code is [here](https://github.com/sys-001/tg-premiumkickbot)\), or you can just /donate\!
 
 _Q:_ Which library are you using for this bot?
 _A:_ Initially I wrote it in Python using [Pyrogram](https://pyrogram.org), but now I\'m using [Nutgram](https://nutgram.dev)\.
